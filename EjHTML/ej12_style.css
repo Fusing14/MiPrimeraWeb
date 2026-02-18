@@ -1,0 +1,18 @@
+@font-face { 
+    font-family: 'OpenSans'; 
+    src: url('./fuentes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'OpenSans';
+}
+
+
+th, td {
+  padding: 12px;
+  /* En lugar de border completo, solo ponemos el lateral y el inferior */
+  border-bottom: 1px solid #333;
+  border-right: 1px solid #333;
+}
